@@ -3,7 +3,7 @@ package signature
 import (
 	"math/big"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/utils"
+	"ellipticcurve/utils"
 )
 
 type Signature struct {

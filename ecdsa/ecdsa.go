@@ -4,11 +4,11 @@ import (
 	"crypto/sha256"
 	"math/big"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/math"
-	"github.com/hqpay/go-sdk/ellipticcurve/privatekey"
-	"github.com/hqpay/go-sdk/ellipticcurve/publickey"
-	"github.com/hqpay/go-sdk/ellipticcurve/signature"
-	"github.com/hqpay/go-sdk/ellipticcurve/utils"
+	"ellipticcurve/math"
+	"ellipticcurve/privatekey"
+	"ellipticcurve/publickey"
+	"ellipticcurve/signature"
+	"ellipticcurve/utils"
 )
 
 func Sign(message string, privateKey *privatekey.PrivateKey) signature.Signature {

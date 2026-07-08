@@ -3,7 +3,7 @@ package math
 import (
 	"math/big"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/point"
+	"ellipticcurve/point"
 )
 
 type Mather interface {

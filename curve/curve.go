@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/point"
+	"ellipticcurve/point"
 )
 
 type CurveFper interface {

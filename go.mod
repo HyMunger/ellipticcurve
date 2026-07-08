@@ -1,3 +1,3 @@
-module github.com/hqpay/go-sdk
+module ellipticcurve
 
 go 1.19

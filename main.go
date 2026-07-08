@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/ecdsa"
-	"github.com/hqpay/go-sdk/ellipticcurve/privatekey"
-	"github.com/hqpay/go-sdk/ellipticcurve/publickey"
-	"github.com/hqpay/go-sdk/ellipticcurve/signature"
+	"ellipticcurve/ecdsa"
+	"ellipticcurve/privatekey"
+	"ellipticcurve/publickey"
+	"ellipticcurve/signature"
 )
 
 const testPublicKey = "-----BEGIN PUBLIC KEY-----\n" +

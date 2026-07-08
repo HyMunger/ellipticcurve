@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/hqpay/go-sdk/ellipticcurve/curve"
-	"github.com/hqpay/go-sdk/ellipticcurve/math"
-	"github.com/hqpay/go-sdk/ellipticcurve/publickey"
-	"github.com/hqpay/go-sdk/ellipticcurve/utils"
+	"ellipticcurve/curve"
+	"ellipticcurve/math"
+	"ellipticcurve/publickey"
+	"ellipticcurve/utils"
 )
 
 type PrivateKey struct {
